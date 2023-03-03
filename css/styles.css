@@ -1,0 +1,125 @@
+:root {
+--primaey-text-color:#757575;
+--hed-text-color:#212121;
+--accent-logo-color: #2196F3;
+}
+
+.page {
+    background-color: #F5F5F5;
+    color: var(--primaey-text-color);
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+header {
+    background-color: #FFFFFF;
+}
+
+/* Logo */
+.logo {
+    color: #000000;
+}
+span {
+    color: var(--accent-logo-color);
+}
+
+/*Nav sayte*/
+.site-nav a {
+    color: #212121;
+    }
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.site-nav .link.current {
+color: #2196F3;
+}
+
+.phone-email a {
+    color: #D9D9D9;
+}
+
+.phone-email .link:hover,
+.phone-email .link:focus {
+    color: #2196F3;
+}
+
+.phone {
+    color:#757575;
+}
+
+.email {
+    color: #2196F3;
+}
+
+/* Herо */
+.hero-title {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+
+/* Аdvances */
+.advances .advances-title {
+    color: var(--hed-text-color);
+}
+
+
+/* Section */
+.section-tirle {
+    color: var(--hed-text-color);
+}
+
+
+/* Team */
+.team {
+    background: #D9D9D9;;
+}
+.team-title {
+    color: var(--hed-text-color);
+    }
+
+
+    /* Footer */
+footer {
+    color: #FFFFFF;
+    background: #2F303A;;
+}
+.logo-footer {
+    color:#FFFFFF
+}
+.phone-email-footer{
+color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button */
+
+.button-primery {
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+.button-secondary a {
+    color: #212121;
+    background-color: #F5F4FA;;
+}
+
+.button-secondary .link:hover,
+.button-secondary .link:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/* Portfolio */
+
+.portfolio-hed {
+    color: var(--hed-text-color);
+}
+
+.portfolio-text {
+    color: var(--primaey-text-color);
+}
