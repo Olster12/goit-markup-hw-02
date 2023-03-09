@@ -1,5 +1,4 @@
 :root {
---backgraund:#F5F5F5;
 --primaey-text-color:#757575;
 --hed-text-color:#212121;
 --accent-logo-color:#2196F3;
@@ -10,8 +9,7 @@
 
 .page {
     color: var(--primaey-text-color);
-    background: var(--backgraund);
-    
+        
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -191,13 +189,13 @@ address {
     background-color:#F5F4FA;
 }
 
-.button-secondary .link:hover,
-.button-secondary .link:focus {
+.button-secondary.link:hover,
+.button-secondary.link:focus {
     color: #FFFFFF;
     background-color: var(--link-color);
 }
 
-.button-secondary .link.current {
+.button-secondary.link.current {
     color: #FFFFFF;
     background-color: var(--link-color);
 }
